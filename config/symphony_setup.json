@@ -1,0 +1,30 @@
+{
+  "env": {
+    "required": [
+      "LINEAR_API_KEY"
+    ]
+  },
+  "project": {
+    "name": "reef-app-5"
+  },
+  "github": {
+    "repo": "welovekiteboarding/reef-app-5"
+  },
+  "linear": {
+    "team_key": "RA5",
+    "team_name": "ReefApp5",
+    "workflow_states": [
+      "Todo",
+      "In Progress",
+      "Human Review",
+      "Rework",
+      "Merging",
+      "Done"
+    ]
+  },
+  "proof_issue": {
+    "state": "Todo",
+    "description": "Create a small change in the repo, leave it ready for review, and prove the loop.",
+    "title": "Bootstrap the first Linear to Codex to PR loop"
+  }
+}
